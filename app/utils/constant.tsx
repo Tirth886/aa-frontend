@@ -1,4 +1,4 @@
-import { BlogDetails } from "./apis/blogs/interface";
+import { BlogDetails } from "./types/blogInterface";
 
 interface Params {
     slug?: string
@@ -22,11 +22,17 @@ export const API = "https://"
 
 export const PROJECTNAME = "Agri Africa"
 
-export const PAGEBLOG = PROJECTNAME + '| Blog'
+export const PAGEBLOG = PROJECTNAME + ' | Blog'
 
-export const PAGEHOME = PROJECTNAME + '| Home'
+export const PAGEHOME = PROJECTNAME + ' | Home'
 
-export const PAGEABOUTUS = PROJECTNAME + '| About Us'
+export const PAGEABOUTUS = PROJECTNAME + ' | About Us'
+
+export const PAGEAEXHIBITORS = PROJECTNAME + ' | Exhibitors'
+
+export const PAGEVISITORS = PROJECTNAME + ' | Visitors'
+
+export const PAGEMEDIA = PROJECTNAME + ' | Media'
 
 export type {
     PropsParmas,
